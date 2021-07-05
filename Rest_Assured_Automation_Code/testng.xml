@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API test Suite">
+	<test verbose="2" name="API test cases" enabled="true">
+		<groups>
+			<run>
+				<include name="REGRESSION" />
+			</run>
+		</groups>
+		<classes>
+		    <class name="Assignment.Rest_Assured_Assignment.PupilsTest">
+		    <methods>
+                    <include name="verifyApiPostTest"/>
+                    
+                </methods>	
+		    </class>
+			</classes>
+	</test>
+</suite>
+ 
